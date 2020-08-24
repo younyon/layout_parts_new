@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+.table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table th {
+  background-color: #2244aa;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  border: solid#dedede 1px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #ecf1f2;
+
+}
+
+.table td {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  
+}
+
+.table tbody tr:last-child {
+  border-top: dashed #000 2px;
+}
+
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

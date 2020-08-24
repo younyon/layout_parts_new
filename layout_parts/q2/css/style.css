@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+.whitebox {
+  background-color: #eff3f4;
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.left-img {
+  margin: 0 20px 10px 0;
+  float: left;
+}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.right-img {
+  margin: 0 0 10px 20px;
+  float: right;
+}
+
+.q2-text {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}

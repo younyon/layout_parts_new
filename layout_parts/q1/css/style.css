@@ -1,4 +1,38 @@
 @charset "UTF-8";
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.whitebox {
+  background-color: #eff3f4;
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.bluebox { 
+  background-color: #3274ae;
+  float: left;
+  margin-left: 20px; 
+  padding: 20px;
+}
+
+.bluebox:first-child{
+  margin-left: 0;
+}
+
+.bluebox_iner {
+  width: 230px;
+  background-color: #eaf4ff;
+  border: solid 10px #022336;
+  box-sizing: border-box;
+  padding: 20px;
+  /* padding: 20px; */
+}
 
 /* 回答はここに書いてね */
 
